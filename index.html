@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beginner-friendly Open Source community project built for the Elevate Git & GitHub workshop.">
+  <title>OpenSource Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#">OpenSource<span>Hub</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#resources">Resources</a>
+        <a href="#contributors">Contributors</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">OPEN SOURCE COMMUNITY</p>
+        <h1>Build. Contribute.<br><span>Grow together.</span></h1>
+        <p class="hero-text">
+          Learn by contributing to real projects, collaborating with developers,
+          and building a GitHub profile you can be proud of.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#workflow">How to contribute</a>
+          <a class="button secondary" href="#resources">Explore resources</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">01 / WHY OPEN SOURCE</p>
+        <div class="section-heading">
+          <h2>Learn by building with others.</h2>
+          <p>Open Source gives you a place to practice skills that tutorials alone cannot teach.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Learn</h3>
+            <p>Read real codebases, solve issues, and learn how software is built by teams.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Collaborate</h3>
+            <p>Use branches, commits and Pull Requests to work with developers around the world.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Grow</h3>
+            <p>Build practical experience and create a contribution history on your GitHub profile.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workflow-section" id="workflow">
+      <div class="container">
+        <p class="eyebrow">02 / CONTRIBUTION WORKFLOW</p>
+        <div class="section-heading">
+          <h2>Small steps. Real contribution.</h2>
+          <p>The same basic workflow can take you from an issue to a merged Pull Request.</p>
+        </div>
+
+        <div class="workflow">
+          <div class="step"><span>01</span><strong>Fork</strong><small>Create your copy</small></div>
+          <div class="connector"></div>
+          <div class="step"><span>02</span><strong>Clone</strong><small>Bring it local</small></div>
+          <div class="connector"></div>
+          <div class="step"><span>03</span><strong>Branch</strong><small>Create a work line</small></div>
+          <div class="connector"></div>
+          <div class="step"><span>04</span><strong>Change</strong><small>Fix the issue</small></div>
+          <div class="connector"></div>
+          <div class="step"><span>05</span><strong>Commit</strong><small>Save a checkpoint</small></div>
+          <div class="connector"></div>
+          <div class="step"><span>06</span><strong>Push</strong><small>Send to GitHub</small></div>
+          <div class="connector"></div>
+          <div class="step"><span>07</span><strong>Pull Request</strong><small>Ask for review</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="container">
+        <p class="eyebrow">03 / START LEARNING</p>
+        <div class="section-heading">
+          <h2>Resources worth bookmarking.</h2>
+          <p>Start with the fundamentals, then learn by contributing.</p>
+        </div>
+
+        <div class="resource-grid">
+          <a class="resource" href="https://git-scm.com/doc" target="_blank" rel="noopener">
+            <span>GIT</span>
+            <h3>Git Documentation</h3>
+            <p>Official reference for Git commands and concepts.</p>
+            <strong>Visit →</strong>
+          </a>
+          <a class="resource" href="https://docs.github.com/" target="_blank" rel="noopener">
+            <span>GITHUB</span>
+            <h3>GitHub Docs</h3>
+            <p>Guides for repositories, branches, Pull Requests and more.</p>
+            <strong>Visit →</strong>
+          </a>
+          <a class="resource" href="https://developer.mozilla.org/" target="_blank" rel="noopener">
+            <span>WEB</span>
+            <h3>MDN Web Docs</h3>
+            <p>A reliable reference for HTML, CSS and JavaScript.</p>
+            <strong>Visit →</strong>
+          </a>
+          <a class="resource" href="https://opensource.guide/" target="_blank" rel="noopener">
+            <span>OPEN SOURCE</span>
+            <h3>Open Source Guides</h3>
+            <p>Practical advice for contributing to Open Source projects.</p>
+            <strong>Visit →</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contributors-section" id="contributors">
+      <div class="container">
+        <p class="eyebrow">04 / COMMUNITY</p>
+        <div class="section-heading">
+          <h2>Built by contributors.</h2>
+          <p>This section is intentionally simple — your first contribution can start here.</p>
+        </div>
+
+        <div class="contributors">
+          <div class="contributor">
+            <div class="avatar">E</div>
+            <div>
+              <h3>Elevate Open Source Team</h3>
+              <p>Workshop maintainers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="brand" href="#">OpenSource<span>Hub</span></a>
+        <p>A beginner-friendly community project for learning Open Source contribution.</p>
+      </div>
+      <p>Built with HTML & CSS • <span id="year">2026</span></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
