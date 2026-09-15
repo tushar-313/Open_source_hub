@@ -1,13 +1,7 @@
 # Contributors
 
-Add your name here through a Pull Request!
+Copy this line, change the name, and push your contribution:
 
-## Format
+- Your Name
 
-```text
-- Your Name — [GitHub Username](https://github.com/username)
-```
-
-## Contributors
-
-- Elevate Open Source Team — Workshop Maintainers
+- Elevate Open Source Team
