@@ -14,3 +14,5 @@ A very simple HTML & CSS project for learning Git and GitHub.
 8. Open a Pull Request.
 
 That's it! 🎉
+
+Note: This repo was created to introduce juniors about open source platforms like git and github.
