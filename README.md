@@ -15,4 +15,4 @@ A very simple HTML & CSS project for learning Git and GitHub.
 
 That's it! 🎉
 
-Note: This repo was created to introduce juniors about open source platforms like git and github.
+Note: This repo was created to introduce juniors about open source and how git and github works.
